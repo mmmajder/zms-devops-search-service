@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mongo-search-configmap
+  namespace: backend
+data:
+  db-host: "mongodb-search-service"
+  db-port: "27017"
